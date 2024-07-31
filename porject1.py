@@ -53,3 +53,127 @@
 # # Importing math module (to see more of maths fucnction type python 3 math module in google)
 # print(math.ceil(2.9))
 # print(math.floor(2.9))
+
+# If else statement in Python
+# price_house = 1000000
+# credit = int(input('Whats your credit score'))
+#
+# if credit > 500000 :
+#     down_payment = 0.1 * price_house #Remember to look at the indentation as there are no brackets in python and an indentation means its within the statement body
+# else:
+#     down_payment = 0.2 * price_house
+#
+# print(down_payment)
+
+#WEIGHT CALCULATOR FROM KG TO POUNDS AND POUNDS TO KG
+# weight = float(input('Please input your age? '))
+# unit = (input('Select the unit? ')).lower()
+# if unit == 'kg':
+#     weight_kg = weight * 2.20462
+#     print(weight_kg)
+# else:
+#     weight_pounds = weight / 2.20462
+#     print(weight_pounds)
+
+# Guessing the number game using while loop
+# lucky_number = 8
+# i = 0
+# j = 3
+# while i < 3 :
+#     guessed_number = int(input('Guess the lucky Number: '))
+#     if lucky_number == guessed_number:
+#         print('You have won')
+#         break
+#     else:
+#         j -= 1
+#         print(f'Wrong , Try Again, you have {j} more chances')
+#         i +=1
+#
+#
+# else:
+#  print('All the tries are over')
+
+# Car Game Without graphics
+#
+# while True:
+#     command = input('Press "P" to start the game or "T" to terminate from the game: ').lower()
+#     if command == 'p':
+#         print('Press "S" to start the car.')
+#         print('Press "C" to stop the car.')
+#         print('Press "E" to exit the current game.')
+#
+#         car_started = False  # State variable to track if the car is started or stopped
+#
+#         while True:
+#             start_command = input().lower()
+#             if start_command == 's':
+#                 if car_started:
+#                     print('Car is already started!')
+#                 else:
+#                     print('Car is started.')
+#                     car_started = True
+#             elif start_command == 'c':
+#                 if not car_started:
+#                     print('Car is already stopped!')
+#                 else:
+#                     print('Car is stopped.')
+#                     car_started = False
+#             elif start_command == 'e':
+#                 print('You have exited the game.')
+#                 break
+#             else:
+#                 print("I don't understand that command.")
+#     elif command == 't':
+#         print('Hope you enjoyed the game.')
+#         break
+#     else:
+#         print("Sir, please press 'P'.")
+
+# For Loops
+# for item in ['john','Yasir','shahab']:
+#     print(item[0:1])
+# # Range function in Python returns numbers in its range and we can also specify  the range and also in which manner should the counting be done
+# #general syntax Range(starting-point,Ending-point,incrementation-count)
+# for item in range(5,25,4):
+#     print(item)
+
+# for items in range(5):
+#     if items == 0 or items == 2:
+#         print("*" * 5)
+#     else:
+#         print('*' * 2)
+
+# number = [5,2,5,2,2]
+# for item in range(5):
+#     count = ''
+#     for item in range(number[item]):
+#         count += "x"
+#     print(count)
+# #Prints L
+# number_L = [1, 1, 1, 1, 5]
+# for item in range(5):
+#     count = ''
+#     for item in range(number_L[item]):
+#         count += "x"
+#     print(count)
+
+# Finding greatest number in list
+# numbers = [5, 8, 9, 4, 5]
+# greatest_number = numbers[0]
+#
+# for num in numbers:
+#     if num > greatest_number:
+#         greatest_number = num
+#
+# print(greatest_number)
+
+
+
+
+
+
+
+
+
+
+
