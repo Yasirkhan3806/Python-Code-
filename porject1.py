@@ -44,4 +44,12 @@
 # print(10 // 3)
 # #Power operator
 # print(10 ** 3)
-
+# import math
+# # Some Math Functions
+# number = 2.9
+# print(round(2.9))
+# [print(abs(-2.9))] #absolute function of calculas always return a postiive value
+# print(abs(2.9))
+# # Importing math module (to see more of maths fucnction type python 3 math module in google)
+# print(math.ceil(2.9))
+# print(math.floor(2.9))
