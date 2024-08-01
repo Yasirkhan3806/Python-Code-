@@ -167,13 +167,72 @@
 #
 # print(greatest_number)
 
+# 2D Lists
+# matrix = [
+#     [2,3,4],
+#     [4,5,6],
+#     [9,0,8]
+# ]
 
+# List Methods
+#Program to remove duplicate number from the list
+# First method generally used
+# lis = [2,4,5,8,9,8,0,8,8,9,4,5,7]
+# unique_items = []
+# for items in lis:
+#     if items not in unique_items:
+#         unique_items.append(items)
+#
+#
+# print(unique_items)
+# Second Method by me
+# for items in lis:
+#     occurance = lis.count(items)
+#     if occurance > 1:
+#         lis.pop(lis.index(items))
+#
+#
+# print(lis)
 
+# Unpacking Concept in Python
+# coordinate = (1,2,3) # a list with circular brackets is called tuples which is just const list
+# x= coordinate[0]
+# y= coordinate[1]
+# z= coordinate[2]
+# x,y,z = coordinate #above three lines and this have the same meaning
+# print(x , y , z)
 
+# Dictionaries in python
+# phone_number = input("Phone: ")  # Take input as a string to preserve each digit
+# phone = {
+#     '0': "zero",
+#     '1': "one",
+#     '2': "two",
+#     '3': "three",
+#     '4': "four",
+#     '5': "five",
+#     '6': "six",
+#     '7': "seven",
+#     '8': "eight",
+#     '9': "nine"
+# }
+#
+# alphabet = ''
+# for digit in phone_number:
+#     alphabet += phone[digit] + ' '
+#
+# print(alphabet.strip())
 
-
-
-
-
-
-
+#Creating emoji converter
+# input_taken  = input(">")
+# words = input_taken.split(" ")
+# emojis = {
+#     ":)" : "😁",
+#     ":(" : "😢",
+#     ";)" : "😉",
+# }
+# output = ''
+# for each in words:
+#   output +=  emojis.get(each,each) + " "
+#
+# print(output)
