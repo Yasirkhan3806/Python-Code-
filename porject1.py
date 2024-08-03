@@ -236,3 +236,34 @@
 #   output +=  emojis.get(each,each) + " "
 #
 # print(output)
+
+#exception in python
+# while True:
+#     try:
+#         x = int(input("What is the value of x? "))
+#
+#     except ValueError:
+#         print("x is not an integar")
+#     else:
+#         break
+# print(f'the value of x is {x}')
+
+# Functions in py
+# def main():
+#     x = get_int()
+#     print(x)
+#
+#
+# def get_int():
+#     while True:
+#        try:
+#            return int(input("whats the value of x? "))
+#        # except ValueError:
+#        #     print("x is not an integar") Or
+#        except ValueError:
+#            pass
+#
+#
+#
+#
+# main()
