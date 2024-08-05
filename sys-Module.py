@@ -73,3 +73,5 @@ else:
     #
     # Notice that rather than starting the list at 0, we use square brackets to tell the compiler to start at 1 and go to the end using the 1: argument. Running this code, you’ll notice that we can improve our code using relatively simple syntax.
 
+from First_module import hello
+hello("world")
