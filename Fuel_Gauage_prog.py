@@ -23,10 +23,5 @@ def calculating_fuel_gauge():
 
 
 
-main()
-#
-# x = input("mf")
-# x2 , x3 = x.split("/")
-# x4 = int(x2) / int(x3)
-# x5 = x4 * 100
-# print(x5)
+if __name__ == "__main__":
+    main()
