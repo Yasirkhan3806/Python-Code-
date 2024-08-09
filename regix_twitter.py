@@ -1,5 +1,5 @@
 # lets create program where we want to extract the twitter username of an account from the given url 
-url = input("URl: ")
+url = input("URl: ").strip()
 # now we know that the format of a url is https://twitter.com/yasirkhan so what we need to do is get rid of all the parts of url just before the username and the simple method to that will be :
 # username = url.replace("https://twitter.com/","")
 # print(f"username: {username}")
