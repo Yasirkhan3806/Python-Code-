@@ -7,5 +7,5 @@ def vault(gold,silver,bronze):
 # print(f"{vault(*values)} bronze") # *values is unpacking operator which will unpack the values and return them in the same order as they were given in the function call
 
 # lets say we have a dictionary like
-values = {"gold":12, "silver":40, "bronze":65}
-print(f"{vault(**values)} bronze")
+# values = {"gold":12, "silver":40, "bronze":65}
+# print(f"{vault(**values)} bronze") # for dictionary unpackin we have to use two asteriks
