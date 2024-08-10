@@ -133,4 +133,20 @@
 #     You can learn more in Python’s documentation of Type Hints.
 #     You can learn more about mypy through the program’s own documentation.
 
+# 4. DocString : there is a convention to how a program should be documented so thatw when we use a third-party library we can simply convert those conmments to a formal pdf 
+
+#     Here is an example of a simple function with a docstring:
+# def meow(n):
+#     """Prints meow n times."""
+#     # Or 
+#     """
+#     Print meow n times.
+#     :param n:
+#     :type n: int
+#     :raise ValueError:
+#     :return none
+#     """
+#     for _ in range(n):
+#         print("meow")
+
 
