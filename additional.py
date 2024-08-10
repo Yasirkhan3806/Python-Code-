@@ -7,3 +7,31 @@
 #     set1.add(i)
 
 # print(sorted(set1))
+
+# 2.GLOBAL variables
+# to make a variable global we have to use keyword global like 
+global balance 
+
+def main():
+    global balance
+    balance = 1000
+    print(f"initial balance: {balance}")
+    deposit(500)
+    withdraw(200)
+    print(f"final balance: {balance}")
+
+def deposit(amount):
+    global balance
+    balance += amount
+    
+def withdraw(amount):
+    global balance
+    if balance >= amount:
+        balance -= amount
+    else:
+        print("Insufficient funds")
+
+if __name__ == "__main__":
+    main()
+
+
